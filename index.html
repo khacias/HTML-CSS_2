@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trivia Night</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="grid">
+      <header>
+        <h1>Trivia Night</h1>
+      </header>
+      <nav>
+        <div class="container">
+          <ul>
+            <li><button>Level 1</button></li>
+            <li><button>Level 2</button></li>
+            <li><button>Level 3</button></li>
+          </ul>
+        </div>
+      </nav>
+      <form action="get">
+        <div class="form_trivia">
+          <label for="name">Enter your name</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div class="form_trivia">
+          <label for="email">Enter your email</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div class="form_trivia">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+
+      <div class="q_boxes1">
+        <div id="question_1"></div>
+        <figure class="box">Question 1</figure>
+        <div id="question_2"></div>
+        <figure class="box">Question 2</figure>
+
+        <div id="question_3"></div>
+        <figure class="box">Question 3</figure>
+      </div>
+      <pre></pre>
+    </div>
+  </body>
+</html>
