@@ -11,16 +11,21 @@
     <div class="grid">
       <header>
         <h1>Trivia Night</h1>
+        <nav>
+          <button><a href="/index.html">Home</a></button>
+          <button><a href="/about.html">About</a></button>
+        </nav>
+        <!-- put nav with home button and about (about page should have pre formatted text) -->
       </header>
-      <nav>
-        <div class="container">
-          <ul>
-            <li><button>Level 1</button></li>
-            <li><button>Level 2</button></li>
-            <li><button>Level 3</button></li>
-          </ul>
-        </div>
-      </nav>
+      <!-- <nav> -->
+      <div class="container">
+        <ul>
+          <li><button>Level 1</button></li>
+          <li><button>Level 2</button></li>
+          <li><button>Level 3</button></li>
+        </ul>
+      </div>
+      <!-- </nav> -->
       <form action="get">
         <div class="form_trivia">
           <label for="name">Enter your name</label>
@@ -35,16 +40,18 @@
         </div>
       </form>
 
-      <div class="q_boxes1">
-        <div id="question_1"></div>
-        <figure class="box">Question 1</figure>
-        <div id="question_2"></div>
-        <figure class="box">Question 2</figure>
-
-        <div id="question_3"></div>
-        <figure class="box">Question 3</figure>
+      <div class="grid-q-1">
+        <h2>Level 1</h2>
+        <div id="question_1">
+          <figure class="box">Question 1</figure>
+        </div>
+        <div id="question_2">
+          <figure class="box">Question 2</figure>
+        </div>
+        <div id="question_3">
+          <figure class="box">Question 3</figure>
+        </div>
       </div>
-      <pre></pre>
     </div>
   </body>
 </html>
