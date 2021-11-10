@@ -8,6 +8,9 @@ area {
   margin: 100px solid red;
   padding: 100px;
 }
-map {
-  background-color: cadetblue;
+
+img {
+  border: solid red;
+  width: 500px;
+  height: 500px;
 }
