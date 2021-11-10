@@ -1,5 +1,7 @@
 body {
   width: 100%;
+  background-color: #8cd8b7ce;
+  background-image: repeating-radial-gradient(coral, #e8a87c, #c38d9e);
 }
 nav {
   background-color: coral;
@@ -19,7 +21,7 @@ ul {
 
 header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #e8a87c;
+  color: #a6f5dd;
   display: inline;
   text-align: center;
   position: relative;
@@ -41,9 +43,6 @@ button {
 }
 ul button {
   background-color: #41b3a8;
-}
-body {
-  background-color: #8cd8b7ce;
 }
 
 .grid-q-1 {
