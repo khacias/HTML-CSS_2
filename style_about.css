@@ -3,3 +3,11 @@ pre {
   padding: 5px;
   margin: 5px;
 }
+map,
+area {
+  margin: 100px solid red;
+  padding: 100px;
+}
+map {
+  background-color: cadetblue;
+}
