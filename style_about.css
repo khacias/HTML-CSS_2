@@ -3,6 +3,10 @@ pre {
   padding: 5px;
   margin: 5px;
 }
+h1::first-letter {
+  color: deeppink;
+  font-family: Papyrus;
+}
 map,
 area {
   margin: 100px solid red;

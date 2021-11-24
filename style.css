@@ -45,6 +45,10 @@ ul button {
   background-color: #41b3a8;
 }
 
+button:hover {
+  background-color: deeppink;
+}
+
 .grid-q-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
